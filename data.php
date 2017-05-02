@@ -1,5 +1,7 @@
 <?php
 
+################ Set key and other configuration details ##############
+
 define('API_KEY', '5f3ef4a8aece346436b3da1256896fcd4aeee226643f234b9d37e7a7579f4990');
 define('PAGE_COUNT', '30');
 define('DOWNLOADFOLDERNAME', 'downloadimgs');
