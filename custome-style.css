@@ -1,0 +1,118 @@
+@import url(https://fonts.googleapis.com/css?family=Bree+Serif);
+
+body {
+  background:#ebebeb;
+}
+ul {
+    padding:0 0 0 0;
+    margin:0 0 40px 0;
+}
+ul li {
+    list-style:none;
+    margin-bottom:10px;
+}
+
+.imgWrapper {
+  max-height: 200px;
+  overflow: hidden;
+}
+.text {
+   color: #666;
+margin-bottom: 10px;
+padding: 7px 12px 25px 12px;
+
+background: #7f7f7f;
+opacity:0.6;
+margin-top: -34px;
+height: 35px;
+width: 100%;
+
+
+   
+}
+
+.custom-height-modal {
+
+ max-height: 600px;
+}
+.pull-right i
+{
+ color:#fff !important;
+font-size:25px;
+}
+
+
+.overlay {
+    
+    background-color: #000;
+    bottom: 0;
+    color: #fff;
+    display: none;
+    font-size: 50px;
+    height: 100%;
+    left: 0;
+    opacity: 0.6;
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+  
+}
+.modal-header
+{
+  background-color:#f6f5f5;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.modal-header .close {
+    margin-top: -8px;
+}
+
+#myModal .modal-body {
+    position: relative;
+    padding: 15px;
+   
+}
+
+@media screen and (min-width: 462px)
+{
+ .text
+  {
+   width:400px!important;
+  }
+}
+
+
+@media screen and (min-width: 767px)
+{
+ .text
+  {
+   width:100% !important;
+  }
+}
+
+
+@media screen and (min-width: 910px)
+{
+ .text
+  {
+  width:100% !important;
+  }
+}
+
+
+
+@media screen and (min-width: 1200px)
+{
+.text
+  {
+   width:100% !important;
+  }
+
+}
+
+
+
+
+

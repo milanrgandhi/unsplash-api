@@ -1,0 +1,49 @@
+@import url(https://fonts.googleapis.com/css?family=Bree+Serif);
+
+body {
+  background:#ebebeb;
+}
+ul {
+    padding:0 0 0 0;
+    margin:0 0 40px 0;
+}
+ul li {
+    list-style:none;
+    margin-bottom:10px;
+}
+
+.imgWrapper {
+  max-height: 150px;
+  overflow: hidden;
+}
+.text {
+    background: #fff none repeat scroll 0 0;
+    color: #666;
+    
+    margin-bottom: 10px;
+    padding: 10px 12px 25px 12px;
+   
+}
+
+.custom-height-modal {
+
+ max-height: 600px;
+}
+
+
+
+
+@media screen and (min-width: 768px) {
+        .modal-dialog {
+          width: 800px; /* New width for default modal */
+         
+        }
+        .modal-sm {
+          width: 350px; /* New width for small modal */
+        }
+    }
+    @media screen and (min-width: 992px) {
+        .modal-lg {
+          width: 950px; /* New width for large modal */
+        }
+    }
