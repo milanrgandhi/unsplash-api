@@ -1,5 +1,4 @@
 <?php
-
 function get($url, $params=array()){
 	
 	$ext = 'curl';
