@@ -1,16 +1,13 @@
 <?php
 function get($url, $params=array()){
 	
-	
 	$ext = 'curl';
-	
 	if(!extension_loaded($ext)) {
 		
 		return 'The library requires the ' . $ext . ' extension.';
 		
 	}
 	else {
-		
 		
 		$url = $url.'?'.http_build_query($params, '', '&');
 		
@@ -34,5 +31,4 @@ function get($url, $params=array()){
 	
 	
 }
-
 ?>
